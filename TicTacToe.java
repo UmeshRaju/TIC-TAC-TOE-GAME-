@@ -26,6 +26,7 @@ public class TicTacToe implements ActionListener {
         textfield.setFont(new Font("Ink Free",Font.BOLD,75));
         textfield.setHorizontalAlignment(JLabel.CENTER);
         textfield.setText("Tic-Tac-Toe");
+        textfield.setText("start the game");
         textfield.setOpaque(true);
 
         title_panel.setLayout(new BorderLayout());
